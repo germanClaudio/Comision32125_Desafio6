@@ -1,0 +1,44 @@
+[
+  {
+    "user": "peter@gmail.com",
+    "date": "29/9/2022, 09:04:59",
+    "message": "Te fuiste a la B",
+    "id_message": 1
+  },
+  {
+    "user": "peterKantropus@gmail.com",
+    "date": "29/9/2022, 09:05:59",
+    "message": "Te fuiste a la B 2",
+    "id_message": 2
+  },
+  {
+    "user": "manolo@hotmail.com",
+    "date": "29/9/2022, 09:06:59",
+    "message": "Te fuiste a la B 3",
+    "id_message": 3
+  },
+  {
+    "user": "german@gmail.com",
+    "message": "Lo logre????",
+    "date": "04/10/2022, 16:18:10",
+    "id_message": 4
+  },
+  {
+    "user": "g-remal@gmail.com",
+    "message": "siiiiiiii te fuiste a la B",
+    "date": "04/10/2022, 17:08:27",
+    "id_message": 5
+  },
+  {
+    "user": "ejemplo@mail.com",
+    "message": "Funciona!!! jajajaj o jijiji",
+    "date": "05/10/2022, 10:43:30",
+    "id_message": 6
+  },
+  {
+    "user": "ejemplo@mail.com",
+    "message": "Funciona!!! jajajaj o jijiji",
+    "date": "05/10/2022, 10:56:30",
+    "id_message": 7
+  }
+]
