@@ -26,7 +26,7 @@ app.set('view engine', 'ejs')
 app.set('views', __dirname + '/public/views/pages') 
 
 app.get('/', (req, res) => {
-    res.render( 'index' , { getAllProducts, getAllMsg,  })
+    res.render( 'index' , { getAllProducts, getAllMsg })
 })
 
 app.get('/historial', (req, res) => {

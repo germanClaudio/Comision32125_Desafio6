@@ -6,7 +6,6 @@ module.exports = class ContainerProducts {
         try {
             this.products = fs.readFileSync(this.myFile, 'utf-8')
             this.products = JSON.parse(this.products)
-            
         }
         catch (error) {
             this.products = []

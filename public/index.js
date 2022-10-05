@@ -1,6 +1,5 @@
 const socket = io.connect()
-
-console.log('socketIO')
+// console.log('socketIO')
 
 // ----------  Messages ----------------
 socket.on('mensajesAll', (data) => {
@@ -46,7 +45,7 @@ socket.on('productsAll', (arrProd) => {
 
 const addProduct = () => {
     const title = document.getElementById('title').value
-    const price = document.getElementById('price').value
+    const price = Number(document.getElementById('price').value)
     const thumbnail = document.getElementById('thumbnail').value
     console.log(title, price, thumbnail)
     socket.emit('newProducto', { title, price, thumbnail })
@@ -61,13 +60,18 @@ const renderProduct = (arrProd) => {
     const html = arrayProd.map((element) => {
         // console.log('Dentro del html '+data)
         return (`<tr>
-                    <td class="text-center">${element.id}</td>
+                    <td class="text-center"><strong>${element.id}</strong></td>
                     <td class="text-center">${element.title}</td>
-                    <td class="text-center">${element.price}</td>
+                    <td class="text-center">$${element.price}</td>
                     <td class="text-center"><img src='${element.thumbnail}' width="100" height="80"></td>
                     <td class="text-center">${element.thumbnail}</td>
                 </tr>`)
     }).join(" ");
 
     document.getElementById('mostrarProductos').innerHTML = html
+
+    const htmlProdList = 
+        ( `<caption id="capProdList">Total Product List ${arrayProd.length}</caption>`)
+
+    document.getElementById('capProdList').innerHTML = htmlProdList    
 }

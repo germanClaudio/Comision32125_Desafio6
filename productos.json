@@ -1,38 +1,44 @@
 [
   {
     "title": "Perfume Champions",
-    "price": 12500,
+    "price": 125,
     "thumbnail": "http://localhost:8080/Perfume_1.jpg",
     "id": 1
   },
   {
     "title": "Perfume Scandalete",
-    "price": 10500,
+    "price": 105,
     "thumbnail": "http://localhost:8080/Perfume_6.jpg",
     "id": 2
   },
   {
     "title": "Perfume Te fuiste a la B",
-    "price": 33333,
+    "price": 333,
     "thumbnail": "http://localhost:8080/Perfume_2.jpg",
     "id": 3
   },
   {
     "title": "Perfume New New York",
-    "price": "1234",
+    "price": 123,
     "thumbnail": "http://localhost:8080/Perfume_4.jpg",
     "id": 4
   },
   {
     "title": "Perfume Marca Cañon",
-    "price": "78943",
+    "price": 189,
     "thumbnail": "http://localhost:8080/Perfume_5.jpg",
     "id": 5
   },
   {
     "title": "Perfume Barcelona",
-    "price": "1234",
+    "price": 160,
     "thumbnail": "http://localhost:8080/Perfume_3.jpg",
     "id": 6
+  },
+  {
+    "title": "Perfume Marca Cañon #3",
+    "price": 150,
+    "thumbnail": "http://localhost:8080/Perfume_1.jpg",
+    "id": 7
   }
 ]
