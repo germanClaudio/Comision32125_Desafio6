@@ -34,6 +34,9 @@ const render = (data) => {
     }).join(" ")
 
     document.getElementById('mostrarMensajes').innerHTML = html
+
+    // document.getElementById('author').value = ""
+    document.getElementById('texto').value = ""
 }
 
 
@@ -74,4 +77,8 @@ const renderProduct = (arrProd) => {
         ( `<caption id="capProdList">Total Product List ${arrayProd.length}</caption>`)
 
     document.getElementById('capProdList').innerHTML = htmlProdList    
+
+    document.getElementById('title').value = ""
+    document.getElementById('price').value = ""
+    document.getElementById('thumbnail').value = ""
 }

@@ -40,5 +40,11 @@
     "price": 150,
     "thumbnail": "http://localhost:8080/Perfume_1.jpg",
     "id": 7
+  },
+  {
+    "title": "Perfume LFDAA",
+    "price": 230,
+    "thumbnail": "http://localhost:8080/Perfume_6.jpg",
+    "id": 8
   }
 ]
