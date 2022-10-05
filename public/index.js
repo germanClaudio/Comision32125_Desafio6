@@ -63,10 +63,10 @@ const renderProduct = (arrProd) => {
     const html = arrayProd.map((element) => {
         // console.log('Dentro del html '+data)
         return (`<tr>
-                    <td class="text-center"><strong>${element.id}</strong></td>
+                    <th scope="row" class="text-center"><strong>${element.id}</strong></th>
                     <td class="text-center">${element.title}</td>
                     <td class="text-center">$${element.price}</td>
-                    <td class="text-center"><img src='${element.thumbnail}' width="100" height="80"></td>
+                    <td class="text-center"><img class="img-fluid rounded" alt="Product Image" src='${element.thumbnail}' width="100" height="80"></td>
                     <td class="text-center">${element.thumbnail}</td>
                 </tr>`)
     }).join(" ");

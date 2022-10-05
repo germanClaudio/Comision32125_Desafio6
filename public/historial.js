@@ -13,7 +13,7 @@ const renderProduct = (arrProd) => {
                     <td class="text-center"><strong>${element.id}</strong></td>
                     <td class="text-center">${element.title}</td>
                     <td class="text-center">$${element.price}</td>
-                    <td class="text-center"><img src='${element.thumbnail}' width="120" height="100"></td>
+                    <td class="text-center"><img class="img-fluid rounded" alt="Product Image" src='${element.thumbnail}' width="160" height="120"></td>
                     <td class="text-center">${element.thumbnail}</td>
                 </tr>`)
     }).join(" ");

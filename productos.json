@@ -52,5 +52,11 @@
     "price": 55,
     "thumbnail": "https://media.vogue.mx/photos/611fceee305f951c22ac94db/master/w_2372,h_3000,c_limit/Voce%20Vita%20de%20Valentino.jpg",
     "id": 9
+  },
+  {
+    "title": "Perfume Maxime Avon",
+    "price": 90,
+    "thumbnail": "https://staticar.natura.com/cdn/ff/x3IFO-gqdVyrhwSKbye8hMQjk67hS2vbGwg-ZYo1Qhg/1664554454/public/products/102517_1_2.jpg",
+    "id": 10
   }
 ]
