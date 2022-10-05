@@ -46,5 +46,11 @@
     "price": 230,
     "thumbnail": "http://localhost:8080/Perfume_6.jpg",
     "id": 8
+  },
+  {
+    "title": "Perfume Carlota",
+    "price": 55,
+    "thumbnail": "https://media.vogue.mx/photos/611fceee305f951c22ac94db/master/w_2372,h_3000,c_limit/Voce%20Vita%20de%20Valentino.jpg",
+    "id": 9
   }
 ]
